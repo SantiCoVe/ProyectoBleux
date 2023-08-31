@@ -1,0 +1,1132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Open+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #1e172f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px 0px 150px;
+}
+
+.navegacion{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    text-decoration: none;
+    list-style: none;
+    color: #8f8c97;
+    margin: 0px 20px 0px 20px;
+}
+
+nav a:target {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav li{
+    list-style: none;
+    display: flex;
+}
+
+header button{
+    width: 165px;
+    height: 47px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #782dc8, #2f9deb);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.inicio{
+    display: flex;
+    width: 100%;
+}
+
+.tituloInicio{
+    display: flex;
+    flex-direction: column;
+    background-color: #3d3264;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 120px;
+    height: 70vh;
+    width: 45vw;
+}
+
+.tituloInicio h1{
+    color: white;
+    font-size: 80px;
+    width: 50%;
+    line-height: 5.8rem;
+    padding-bottom: 2.5rem;
+}
+
+.tituloInicio p{
+    color: white;
+    line-height: 2rem;
+    width: 90%;
+    font-size: 22px;
+    padding-bottom: 2.5rem;
+}
+
+.botonesInicio{
+    display: flex;
+    border: 2px solid #676373;
+    padding: 3.5px;
+    border-radius: 5px;
+}
+
+.botonesInicio button{
+    font-size: 16px;
+    width: 140px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #3d3264;
+}
+
+.botonDif button{
+    color: #ec68ac;
+    background-color: white;
+    width: 200px;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.fondoInicio{
+    background-image: url(images/hojasFondo.jpg);
+    background-size: cover;
+    width: 55vw;
+    height: auto;
+}
+
+.fondoInicio img{
+    justify-content: center;
+    width: 240px;
+    height: auto;
+    margin: 90px 0px 0px 130px;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #f41486;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.infoImagen{
+    display: flex;
+    height: 370px;
+    width: 40vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.infoImagen img{
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoTexto{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.infoTexto h2{
+    color: #bb4080;
+    font-size: 42px;
+    font-weight: lighter;
+    padding-bottom: 35px;
+}
+
+.infoTexto p{
+    width: 70%;
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+
+.subInfoTexto{
+    display: flex;
+    color: #f41486;
+    width: 100%;
+    height: 8%;
+    margin-bottom: 20px;
+}
+
+.subInfoTexto p{
+    font-size: 25px;
+    width: 100%;
+}
+
+.subInfoTexto img{
+    margin-right: 10px;
+    width: 25px;
+}
+
+.checkers{
+    display: flex;
+    flex-direction: column;
+}
+
+.check{
+    display: flex;
+    height: 30px;
+    margin-bottom: 6px;
+}
+
+.check p{
+    margin-left: 12px;
+}
+
+.check img{
+    width: 22px;
+}
+
+.planes{
+    background-color: #211934;
+    margin-top: 60px;
+}
+
+.tituloPlanes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.tituloPlanes h1{
+    font-size: 50px;
+    margin-bottom: 18px;
+    margin-top: 22px;
+}
+
+.tituloPlanes p{
+    width: 800px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.los3Planes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+.planIndividual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 380px;
+    border-radius: 5px;
+}
+
+.planIndividual :hover{
+    .nube{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    .imgPlan h2{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    #estrella{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    #nube{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    #check{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    .botonPlan button{
+        background: linear-gradient(to right, #fd8bc6, #eb3292);
+    }
+}
+
+.planIndividual a{
+    text-decoration: none;
+    color: black;
+}
+
+.planIndividualMedio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 380px;
+    border-radius: 5px;
+    margin: 0px 50px 0px 50px;
+}
+
+.planIndividualMedio :hover{
+    .imgPlanMedio h2{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    #estrella{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    #nube{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    #check{
+        color: #ef419a;
+        transition: all 0.5s;
+    }
+    .botonPlan button{
+        background: linear-gradient(to right, #fd8bc6, #eb3292);
+    }
+}
+
+.planIndividualMedio a{
+    text-decoration: none;
+    color: black;
+}
+
+.imgPlan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.imgPlanMedio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px
+}
+
+.imgPlan svg{
+    width: 53px;
+    padding-bottom: 12px;
+}
+
+.imgPlanMedio img{
+    width: 65px;
+}
+
+.precioPlan{
+    display: flex;
+    font-size: 34px;
+    background-color: #f5f4f4;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px
+}
+
+.precioPlanIzq{
+    display: flex;
+    font-size: 34px;
+    background-color: #f5f4f4;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px
+}
+
+.precioPlanMed{
+    display: flex;
+    font-size: 34px;
+    background-color: #f5f4f4;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px
+}
+
+.precioPlanDer{
+    display: flex;
+    font-size: 34px;
+    background-color: #f5f4f4;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px
+}
+
+.precioPlanIzq p{
+    display: flex;
+}
+
+.precioPlanMed p{
+    display: flex;
+}
+.precioPlanDer p{
+    display: flex;
+}
+
+.precioPlan p{
+    display: flex;
+    width: 34%;
+}
+
+#simboloPrecio{
+    display: flex;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#duracionIzq{
+    font-size: 12px;
+    padding-top: 10px;
+    margin-left: 3px;
+}
+#duracionMed{
+    width: 100%;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-top: 6px;
+}
+#duracionDer{
+    font-size: 12px;
+    width: auto;
+    line-height: 13px;
+    padding-top: 6px;
+    margin-left: 3px;
+}
+
+.incluyePlan{
+    display: flex;
+    padding-top: 25px;
+    width: 80%;
+    margin-left: 25px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 8.5px;
+}
+
+.iconos svg{
+    margin-bottom: 15px;
+}
+
+#estrella svg path{
+    margin-bottom: 20px;
+}
+
+#estrella{
+    margin-left: 4.5px;
+}
+
+#check{
+    margin-left: 3px;
+}
+
+.textoPlanes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    line-height: 36.7px;
+}
+
+.textoPlanes p{
+    width: 60%;
+}
+
+.infoFinalPlan{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 3cqmin;
+}
+
+.infoFinalPlan p{
+    width: 60%;
+}
+
+.botonPlan{
+    display: flex;
+    width: 100%;
+    background-color: #f5f4f4;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.botonPlan button{
+    height: 38px;
+    background-color: #211934;
+    border: none;
+    border-radius: 5px;
+    color: rgb(245, 245, 245);
+    width: 140px;
+}
+
+.infoFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px 25px 100px;
+}
+
+.copy span{
+    color: #f22690;
+}
+
+.logosFooter{
+    display: flex;
+}
+
+.facebook{
+    margin-right: 20px;
+}
+
+.twitter{
+    margin-right: 20px;
+}
+
+.linked{
+    margin-right: 20px;
+}
+
+@media screen and (min-width:921px) and (max-width:1279px){
+    header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0px 50px 0px 50px;
+    }
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px;
+    }
+    header nav{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+    header nav li{
+        display: flex;
+    }
+    header nav li a{
+        display: flex;
+        width: 90px;
+        margin: 0px 10px;
+        font-size: 15px;
+        justify-content: center;
+    }
+    .botonNav{
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+    .botonNav button{
+        width: 130px;
+        height: 40px;
+        margin: 0px;
+    }
+    .tituloInicio{
+        width: 50%;
+        padding: 0px 0px 0px 100px;
+    }
+    .tituloInicio h1{
+        font-size: 66px;
+    }
+    .tituloInicio p{
+        font-size: 20px;
+        width: 80%;
+    }
+    .botonDif button{
+        width: 10rem;
+        font-size: 15px;
+    }
+    #features{
+        width: 7rem;
+        font-size: 15px;
+    }
+    .fondoInicio{
+        width: 55%;
+    }
+    .fondoInicio img{
+        justify-content: center;
+        width: 220px;
+        height: auto;
+        margin: 120px 0px 0px 130px;
+    }
+    .infoImagen{
+        width: 55vw;
+        margin-top: 20px;
+    }
+    .infoImagen img{
+        width: 500px;
+    }
+    .infoTexto img{
+        width: 20px;
+    }
+    .dash{
+        margin-top: 4px;
+    }
+    .infoTexto h2{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .infoTexto p{
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+    .subInfoTexto{
+        width: 100%;
+        margin: 0px;
+    }
+    .check{
+        width: 340px;
+    }
+    .tituloPlanes p{
+        width: 700px;
+    }
+    .planIndividual{
+        width: 260px;
+    }
+    .planIndividualMedio{
+        width: 260px;
+    }
+    .textoPlanes{
+        width: 100%;
+    }
+    .textoPlanes p{
+        font-size: 15px;
+        width: 76%;
+    }
+    .precioPlan{
+        margin: 0px;
+        width: 100%;
+    }
+    .precioPlan p{
+        width: auto;
+    }
+    #duracionDer{
+        display: flex;
+        width: auto;
+    }
+    .infoFinalPlan p{
+        width: 210px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:920px){
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-bottom: 25px;
+        align-items: center;
+    }
+    .logo{
+        align-items: center;
+    }
+    .logo img{
+        width: 8.5rem;
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav li{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav li a{
+        font-size: 15px;
+    }
+    .botonNav button{
+        width: 8rem;
+        height: 40px;
+    }
+    .botonNav{
+        margin-left: 40px;
+    }
+    .tituloInicio{
+        padding: 0px;
+        padding-left: 30px;
+        height: 55vh;
+    }
+    .tituloInicio h1{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .tituloInicio p{
+        font-size: 17px;
+    }
+    .botonDif{
+        width: 160px;
+    }
+    .botonDif button{
+        width: 92%;
+    }
+    #features{
+        width: 120px;
+    }
+    .fondoInicio{
+        height: 55vh;
+    }
+    .fondoInicio img{
+        margin: 0px;
+        width: 190px;
+        margin: 80px 0px 0px 50px;
+    }
+    .tituloPlanes p{
+        width: 35rem;
+    }
+    .info{
+        padding-top: 20px;
+    }
+    .infoImagen{
+        width: 55vw;
+    }
+    .infoImagen img{
+        width: 435px;
+    }
+    .infoTexto{
+        padding: 0px;
+        width: 40vw;
+        padding-left: 20px;
+    }
+    .infoTexto h2{
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+    .infoTexto p{
+        font-size: 16px;
+    }
+    .check p{
+        font-size: 15px;
+    }
+    .subInfoTexto{
+        margin: 0px;
+    }
+    .tituloPlanes p{
+        width: 38rem;
+    }
+    .planIndividual{
+        width: 14.5rem;
+    }
+    .planIndividualMedio{
+        width: 14.5rem;
+        margin: 0px 25px 0px 25px;
+    }
+    .incluyePlan p{
+        width: 100%;
+    }
+    .infoFinalPlan p{
+        width: 12rem;
+    }
+    footer p{
+        width: 25.5rem;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-bottom: 25px;
+        align-items: center;
+    }
+    .logo{
+        align-items: center;
+    }
+    .logo img{
+        width: 8.5rem;
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav{
+        margin-right: 10px;
+    }
+    nav li a{
+        font-size: 15px;
+        margin: 0px 5px 0px 5px;
+    }
+    .botonNav button{
+        width: 100px;
+        height: 36px;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .tituloInicio{
+        padding-left: 15px;
+        height: 60vh;
+    }
+    .tituloInicio h1{
+        font-size: 50px;
+        line-height: 50px;
+        padding-bottom: 30px;
+    }
+    .tituloInicio p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .botonesInicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .botonesInicio button{
+        width: 170px;
+    }
+    .botonDif button{
+        width: 10.5rem;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .fondoInicio{
+        height: 60vh;
+    }
+    .fondoInicio img{
+        width: 10rem;
+        margin: 180px 0px 0px 50px;
+    }
+    .infoTexto h2{
+        font-size: 20px;
+    }
+    .titulo2 h1{
+        font-size: 3rem;
+    }
+    .info{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .infoImagen{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .infoImagen img{
+        width: 30rem;
+    }
+    .infoTexto{
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .infoTexto h2{
+        font-size: 35px;
+        width: 18rem;
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .infoTexto p{
+        font-size: 17px;
+        text-align: center;
+        margin: 0px;
+    }
+    .subInfoTexto p{
+        width: 10rem;
+        font-size: 20px;
+    }
+    #textoLargoDash{
+        width: 40vw;
+        padding-right: 20px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .dosPuntos{
+        display: flex;
+    }
+    .dosPuntosInterno{
+        padding-left: 20px;
+        width: 42vw;
+    }
+    .check{
+        width: 200px;
+    }
+    .check p{
+        width: 100%;
+    }
+    .tituloPlanes p{
+        width: 25rem;
+    }
+    .los3Planes{
+        display: flex;
+        flex-direction: column;
+    }
+    .planes{
+        margin-top: 20px;
+    }
+    .los3Planes{
+        align-items: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .planIndividual{
+        margin: 50px 0px 50px 0px;
+    }
+    .infoFooter{
+        margin: 15px 0px 15px 15px;
+    }
+    .copy p{
+        width: 226px;
+    }
+    .facebook{
+        display: flex;
+        align-items: center;
+    }
+    .twitter{
+        display: flex;
+        align-items: center;
+    }
+    .instagram{
+        display: flex;
+        align-items: center;
+    }
+    .linked{
+        display: flex;
+        align-items: center;
+    }
+    .logosFooter{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:352px) and (max-width:480px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+        padding-bottom: 25px;
+        align-items: center;
+    }
+    .logo{
+        align-items: center;
+    }
+    .logo img{
+        width: 8.5rem;
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    nav li{
+        width: 100%;
+    }
+    nav li a{
+        font-size: 15px;
+        margin: 0px 5px 0px 5px;
+    }
+    .botonNav{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 15px;
+    }
+    .botonNav button{
+        width: 100px;
+        height: 36px;
+        font-size: 15px;
+    }
+    .inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    .tituloInicio{
+        width: 100%;
+        padding-left: 70px;
+        height: 60vh;
+    }
+    .tituloInicio p{
+        width: 90%;
+    }
+    .tituloInicio h1{
+        font-size: 55px;
+        line-height: 50px;
+        padding-bottom: 30px;
+    }
+    .tituloInicio p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .botonesInicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .botonesInicio button{
+        width: 170px;
+    }
+    .botonDif button{
+        width: 10.5rem;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .fondoInicio{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 60vh;
+    }
+    .fondoInicio img{
+        margin: 0px;
+        margin-top: 50px;
+        width: 13rem;
+        height: 25rem;
+    }
+    .titulo2{
+        font-size: 20px;
+    }
+    .info{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .infoImagen{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .infoImagen img{
+        width: 20rem;
+    }
+    .infoTexto{
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .infoTexto h2{
+        font-size: 35px;
+        width: 18rem;
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .infoTexto p{
+        font-size: 17px;
+        text-align: center;
+        margin: 0px;
+    }
+    #textoLargoDash{
+        width: 70vw;
+        text-align: center;
+    }
+    .dosPuntos{
+        display: flex;
+        flex-direction: column;
+    }
+    .dosPuntosInterno{
+        padding-left: 20px;
+        width: 100%;
+    }
+    .subInfoTexto p{
+        width: 65%;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .check{
+        width: 200px;
+    }
+    .check p{
+        width: 100%;
+    }
+    .tituloPlanes h1{
+        font-size: 40px;
+    }
+    .tituloPlanes p{
+        width: 80%;
+    }
+    .los3Planes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .planIndividual{
+        width: 18rem;
+        margin: 50px 0px 50px 0px;
+    }
+    .planIndividualMedio{
+        width: 18rem;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    .copy{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .infoFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+        margin-left: 20px;
+    }
+}
